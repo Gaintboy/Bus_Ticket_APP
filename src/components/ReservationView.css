@@ -1,0 +1,83 @@
+.bus-seat-selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.deck {
+  width: 390px;
+  height: 285px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  align-items: baseline;
+  margin: 10px;
+  border: 1px solid #ddd;
+  padding: 0px 70px 20px 36px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.seat-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.seat-row div{
+  padding: 2px;
+}
+.seat-row.last {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  margin-top: 25px;
+}
+
+.seat {
+  width: calc(20% - 47px); /* Adjust width based on number of seats per row */
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 70px;
+  border: 1px solid #ddd;
+  padding: 0px 0px 0px 40px;
+}
+
+.seat.available {
+  background-color: #ddd;
+}
+
+.seat.booked {
+  background-color: rgb(139, 129, 129);
+  color: #fff;
+}
+.seat.female {
+  background-color: #f00;
+  color: #fff;
+}
+.seat.aisle {
+  width: 10px; /* Adjust width for aisle */
+}
+.spl{
+  height: 80px;
+  width: 65px;
+  margin-bottom: 13px;
+  padding: 7px;
+}
+
+.seatMsg{
+  background-color: #ff0b0bd0;
+  color: #ffffffdc;
+  padding: .5rem 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 400;
+}
