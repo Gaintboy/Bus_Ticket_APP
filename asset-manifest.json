@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Bus_Ticket_APP/static/css/main.aff63641.css",
+    "main.js": "/Bus_Ticket_APP/static/js/main.ce92c450.js",
+    "index.html": "/Bus_Ticket_APP/index.html",
+    "main.aff63641.css.map": "/Bus_Ticket_APP/static/css/main.aff63641.css.map",
+    "main.ce92c450.js.map": "/Bus_Ticket_APP/static/js/main.ce92c450.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aff63641.css",
+    "static/js/main.ce92c450.js"
+  ]
+}
