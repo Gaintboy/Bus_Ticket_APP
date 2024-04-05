@@ -11,7 +11,6 @@
   height: 285px;
   display: flex;
   flex-direction: column;
-  /* align-items: flex-start; */
   align-items: baseline;
   margin: 10px;
   border: 1px solid #ddd;
@@ -40,7 +39,7 @@ h2 {
 }
 
 .seat {
-  width: calc(20% - 47px); /* Adjust width based on number of seats per row */
+  width: calc(20% - 47px);
   height: 50px;
   text-align: center;
   line-height: 50px;
@@ -63,9 +62,6 @@ h2 {
   background-color: #f00;
   color: #fff;
 }
-.seat.aisle {
-  width: 10px; /* Adjust width for aisle */
-}
 .spl{
   height: 80px;
   width: 65px;
@@ -80,4 +76,31 @@ h2 {
   border-radius: 4px;
   font-size: 1rem;
   font-weight: 400;
+}
+/* src/components/StatusBoxes.css */
+.status-container {
+  display: flex;
+  justify-content: space-between;
+  /* Add any other styling you want for the container */
+}
+
+.status-box {
+  flex: 1;
+  padding: 5px;
+  border: 3px solid #fff;
+  text-align: center;
+}
+
+.available {
+  background-color: #ddd;
+}
+
+.unavailable {
+  background-color: rgb(139, 129, 129);
+  color: #fff;
+}
+
+.special {
+  background-color: #f00;
+  color: #fff;
 }

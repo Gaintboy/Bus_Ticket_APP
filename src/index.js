@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import NavigationBar from './components/NavigationBar';
-import ReservationView from './components/ReservationView';
-import DashboardView from './components/DashboardView';
+import NavigationBar from './components/NavBar/NavigationBar';
+import ReservationView from './components/Reservation/ReservationView';
+import DashboardView from './components/DashBoard/DashboardView';
 import data from './components/data';
 
 
