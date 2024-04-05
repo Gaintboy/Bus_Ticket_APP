@@ -24,8 +24,8 @@ root.render(
       <NavigationBar />
       <Routes>
         <Route path="/" >
-          <Route path="" element={<ReservationView />} />
-          <Route path="dashboard" element={<DashboardView />} />
+          <Route path="/" element={<ReservationView />} />
+          <Route path="/dashboard" element={<DashboardView />} />
         </Route>
       </Routes>
     </BrowserRouter>
