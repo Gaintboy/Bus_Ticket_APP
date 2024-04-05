@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Bus_Ticket_APP/static/css/main.aff63641.css",
-    "main.js": "/Bus_Ticket_APP/static/js/main.6fbe1a7e.js",
+    "main.css": "/Bus_Ticket_APP/static/css/main.f48712fc.css",
+    "main.js": "/Bus_Ticket_APP/static/js/main.3b5d5435.js",
     "index.html": "/Bus_Ticket_APP/index.html",
-    "main.aff63641.css.map": "/Bus_Ticket_APP/static/css/main.aff63641.css.map",
-    "main.6fbe1a7e.js.map": "/Bus_Ticket_APP/static/js/main.6fbe1a7e.js.map"
+    "main.f48712fc.css.map": "/Bus_Ticket_APP/static/css/main.f48712fc.css.map",
+    "main.3b5d5435.js.map": "/Bus_Ticket_APP/static/js/main.3b5d5435.js.map"
   },
   "entrypoints": [
-    "static/css/main.aff63641.css",
-    "static/js/main.6fbe1a7e.js"
+    "static/css/main.f48712fc.css",
+    "static/js/main.3b5d5435.js"
   ]
 }
