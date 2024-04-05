@@ -25,7 +25,7 @@ const NavigationBar = () => {
           {isOpen && (
             <ul className="dropdown-list">
               <li>
-                <Link to="/" onClick={() => handleClick()}>Reservation</Link>
+                <Link to="/reservation" onClick={() => handleClick()}>Reservation</Link>
               </li>
               <li>
                 <Link to="/dashboard" onClick={() => handleClick()}>Dashboard</Link>

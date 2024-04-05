@@ -24,7 +24,7 @@ root.render(
       <NavigationBar />
       <Routes>
         <Route path="/" >
-          <Route exact path="/" element={<ReservationView />} />
+          <Route exact path="/reservation" element={<ReservationView />} />
           <Route path="/dashboard" element={<DashboardView />} />
         </Route>
       </Routes>
